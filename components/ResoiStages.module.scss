@@ -1,0 +1,9 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 40px 20px;
+
+  & > * {
+    margin-bottom: 25px;
+  }
+}
